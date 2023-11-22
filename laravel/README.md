@@ -1,3 +1,7 @@
+copy env
+php artisan migrate:fresh --seed
+
+
 Formulir :
 Bisa CRUD Formulir
 Hanya Admin yang bisa melakukan approval
